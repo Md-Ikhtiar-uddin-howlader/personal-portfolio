@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2% ;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+}
+.header{
+    text-align: center;
+    background-image: url("img/header-bg.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+p{
+    text-align: justify;
+}
+.bold{
+    font-size: 50px;
+    color: rgb(218, 78, 101);
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, rgb(248, 146, 163), rgb(218, 78, 101));
+    border-radius: 5px;
+    font-weight: 700px;
+    color: white;
+}
+.bio{
+    text-align: center;
+    background-image: url("img/biography-bg.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.latest-work{
+    height: 600px;
+    background-image: url("img/latest-work-bg.png");
+    text-align: center;
+    background-repeat: no-repeat;
+    padding: 0px 5%;
+}
+.latest-work h1{
+    padding: 100px 0px;
+}
+.latest-work img{
+    width: 30%;
+    margin-left: 2%;
+}
+.footer{
+    height: 600px;
+    text-align: center;
+    background-image: url("img/footer-bg.png");
+    background-repeat: no-repeat;
+}
+.footer>h1{
+    margin: 100px 0px;
+}
+.footer>p{
+    display: flex;
+    justify-content: center;
+    color: dimgray;
+}
+.contact{
+    margin: auto;
+    height: 150px;
+    width: 700px;
+    background-image: linear-gradient(90deg,rgb(248, 146, 163), rgb(218, 78, 101));
+    border-radius: 10px;
+    color: white;
+    padding: 20px 0px;
+}
+.contact p{
+    text-align: center;
+
+}
